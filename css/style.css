@@ -1,0 +1,25 @@
+body {
+    background-color: #000000;
+}
+
+div {
+    width: 20%;
+    height: 10px;
+    border-top: 1px dashed white;
+    border-radius: 20px;
+    border-bottom: none;
+    border-right: 20px solid red;
+    border-left: 20px solid blue;
+    margin-right: 30px;
+    margin-left: 120px;
+    margin-bottom: 7px;
+    animation: dna 5s linear infinite;
+    animation-delay: calc(var(--i) * 0.2s);
+}
+
+@keyframes dna {100%
+{
+    transform: rotate(360deg);
+
+}    
+}
